@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		DBD395192BED108D009E13BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD395182BED108D009E13BE /* AppDelegate.swift */; };
 		DBD3951B2BED108D009E13BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3951A2BED108D009E13BE /* SceneDelegate.swift */; };
-		DBD3951D2BED108D009E13BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3951C2BED108D009E13BE /* ViewController.swift */; };
+		DBD3951D2BED108D009E13BE /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3951C2BED108D009E13BE /* DogViewController.swift */; };
 		DBD395202BED108D009E13BE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DBD3951F2BED108D009E13BE /* Base */; };
 		DBD395222BED1090009E13BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD395212BED1090009E13BE /* Assets.xcassets */; };
 		DBD395252BED1090009E13BE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DBD395242BED1090009E13BE /* Base */; };
 		DBD395302BED1090009E13BE /* API_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3952F2BED1090009E13BE /* API_ProjectTests.swift */; };
 		DBD3953A2BED1090009E13BE /* API_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD395392BED1090009E13BE /* API_ProjectUITests.swift */; };
 		DBD3953C2BED1090009E13BE /* API_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3953B2BED1090009E13BE /* API_ProjectUITestsLaunchTests.swift */; };
+		DBD395492BED1388009E13BE /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD395482BED1388009E13BE /* DogImage.swift */; };
+		DBD3954B2BED2235009E13BE /* DogImageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3954A2BED2235009E13BE /* DogImageAPI.swift */; };
+		DBD395522BED2BF7009E13BE /* RepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD395512BED2BF7009E13BE /* RepTableViewController.swift */; };
+		DBD395542BED2D4E009E13BE /* RepInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD395532BED2D4E009E13BE /* RepInfo.swift */; };
+		DBD395562BED65C5009E13BE /* RepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD395552BED65C5009E13BE /* RepCell.swift */; };
+		DBD395582BED832B009E13BE /* RepInfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD395572BED832B009E13BE /* RepInfoAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		DBD395152BED108D009E13BE /* API Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD395182BED108D009E13BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBD3951A2BED108D009E13BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBD3951C2BED108D009E13BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBD3951C2BED108D009E13BE /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
 		DBD3951F2BED108D009E13BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBD395212BED1090009E13BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD395242BED1090009E13BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		DBD395352BED1090009E13BE /* API ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD395392BED1090009E13BE /* API_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_ProjectUITests.swift; sourceTree = "<group>"; };
 		DBD3953B2BED1090009E13BE /* API_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBD395482BED1388009E13BE /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
+		DBD3954A2BED2235009E13BE /* DogImageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageAPI.swift; sourceTree = "<group>"; };
+		DBD395512BED2BF7009E13BE /* RepTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTableViewController.swift; sourceTree = "<group>"; };
+		DBD395532BED2D4E009E13BE /* RepInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepInfo.swift; sourceTree = "<group>"; };
+		DBD395552BED65C5009E13BE /* RepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepCell.swift; sourceTree = "<group>"; };
+		DBD395572BED832B009E13BE /* RepInfoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepInfoAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +113,8 @@
 			children = (
 				DBD395182BED108D009E13BE /* AppDelegate.swift */,
 				DBD3951A2BED108D009E13BE /* SceneDelegate.swift */,
-				DBD3951C2BED108D009E13BE /* ViewController.swift */,
+				DBD3954E2BED2A3C009E13BE /* Rep */,
+				DBD3954C2BED2264009E13BE /* Dog */,
 				DBD3951E2BED108D009E13BE /* Main.storyboard */,
 				DBD395212BED1090009E13BE /* Assets.xcassets */,
 				DBD395232BED1090009E13BE /* LaunchScreen.storyboard */,
@@ -125,6 +138,27 @@
 				DBD3953B2BED1090009E13BE /* API_ProjectUITestsLaunchTests.swift */,
 			);
 			path = "API ProjectUITests";
+			sourceTree = "<group>";
+		};
+		DBD3954C2BED2264009E13BE /* Dog */ = {
+			isa = PBXGroup;
+			children = (
+				DBD3951C2BED108D009E13BE /* DogViewController.swift */,
+				DBD3954A2BED2235009E13BE /* DogImageAPI.swift */,
+				DBD395482BED1388009E13BE /* DogImage.swift */,
+			);
+			path = Dog;
+			sourceTree = "<group>";
+		};
+		DBD3954E2BED2A3C009E13BE /* Rep */ = {
+			isa = PBXGroup;
+			children = (
+				DBD395512BED2BF7009E13BE /* RepTableViewController.swift */,
+				DBD395572BED832B009E13BE /* RepInfoAPI.swift */,
+				DBD395532BED2D4E009E13BE /* RepInfo.swift */,
+				DBD395552BED65C5009E13BE /* RepCell.swift */,
+			);
+			path = Rep;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD3951D2BED108D009E13BE /* ViewController.swift in Sources */,
+				DBD3954B2BED2235009E13BE /* DogImageAPI.swift in Sources */,
+				DBD3951D2BED108D009E13BE /* DogViewController.swift in Sources */,
 				DBD395192BED108D009E13BE /* AppDelegate.swift in Sources */,
+				DBD395522BED2BF7009E13BE /* RepTableViewController.swift in Sources */,
+				DBD395492BED1388009E13BE /* DogImage.swift in Sources */,
 				DBD3951B2BED108D009E13BE /* SceneDelegate.swift in Sources */,
+				DBD395542BED2D4E009E13BE /* RepInfo.swift in Sources */,
+				DBD395582BED832B009E13BE /* RepInfoAPI.swift in Sources */,
+				DBD395562BED65C5009E13BE /* RepCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
